@@ -20,7 +20,7 @@ import (
 	"github.com/prometheus/prometheus/discovery/gce"
 	"github.com/prometheus/prometheus/discovery/kubernetes"
 	"github.com/prometheus/prometheus/discovery/marathon"
-	"github.com/prometheus/prometheus/discovery/moby"
+	//"github.com/prometheus/prometheus/discovery/moby"
 	"github.com/prometheus/prometheus/discovery/openstack"
 	"github.com/prometheus/prometheus/discovery/triton"
 	"github.com/prometheus/prometheus/discovery/zookeeper"
@@ -29,6 +29,7 @@ import (
 
 	"github.com/grafana/loki/clients/pkg/logentry/stages"
 	"github.com/grafana/loki/clients/pkg/promtail/discovery/consulagent"
+	"github.com/grafana/loki/clients/pkg/promtail/discovery/moby"
 )
 
 // Config describes a job to scrape.
